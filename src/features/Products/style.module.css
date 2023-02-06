@@ -1,0 +1,49 @@
+.prodDiv{
+  margin: 10px;
+}
+.img {
+  width: 150px;
+  height: 180px;
+  object-fit: contain;
+  transition: 0.7s;
+}
+.img:hover {
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px 3px rgb(184, 142, 142);
+}
+.name {
+  margin: auto;
+}
+.price {
+  margin: auto;
+  color: red;
+}
+h1{
+  text-align: center;
+}
+
+.limitBtn {
+  background-color: yellow;
+  border: none;
+  border-radius: 3px;
+  margin: 5px;
+  transition: 0.7s;
+}
+.limitBtn:hover {
+  background-color: rgba(187, 187, 25, 0.582);
+}
+.filterBtn {
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 3px;
+  margin: 5px;
+  transition: 0.7s;
+}
+.filterBtn:hover {
+  background-color: rgba(0, 0, 255, 0.638);
+}
+.buttonDiv {
+  margin: 10px;
+  text-align: center;
+}
